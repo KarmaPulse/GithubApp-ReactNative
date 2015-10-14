@@ -32,10 +32,28 @@ Para finalizar instalar React-Native
 sudo npm install react-native-cli -g
 ```
 
-## Uso (iOS)
+## Uso
+
+Desde el terminal accedemos a la carpeta del proyecto e instalamos las dependencias.
+
+```
+npm install
+```
+
+## Test (iOS)
 
 Abrir el archivo de XCODE y compilar.
 
 ```
 /ios/FirstProject.xcodeproj
+```
+
+## Test (Android)
+
+Desde el terminal accedemos a la carpeta del proyecto y corremos el siguiente comando.
+Se recomienda tener instalado el emulador Genymotion, lo puedes descargar desde aqui.
+https://www.genymotion.com/#!/download
+
+```
+react-native run-android
 ```
